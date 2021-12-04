@@ -1,7 +1,7 @@
-import React from 'react';
-import {HashRouter as Router, Switch, Route} from 'react-router-dom'
-import StudentList from './StudentList.js';
-import SingleStudent from './SingleStudent';
+import React from "react";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
+import StudentList from "./StudentList.js";
+import SingleStudent from "./SingleStudent";
 
 export default class Main extends React.Component {
   constructor(props) {
